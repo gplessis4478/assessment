@@ -1,0 +1,5 @@
+assessment/
+├── images/         # Place all provided images here
+├── styles/         # Contains your CSS file
+├── index.html      # Main HTML file
+├── README.md       # Optional: Add any notes if needed
