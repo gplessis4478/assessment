@@ -27,3 +27,20 @@ header {
     max-width: 1200px;
     margin: auto;
 }
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    #features {
+        grid-template-columns: 1fr;
+    }
+}
+
