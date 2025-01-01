@@ -5,3 +5,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'YourFont', sans-serif;
+    color: #YourColor;
+    background: #BackgroundColor;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
